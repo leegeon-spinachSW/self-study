@@ -1,2 +1,14 @@
 26.05.08--------------
 깃허브 연동 환경 설정.
+26.05.11--------------
+파이썬 env 설정
++venv
++.gitignore
++pacage
+```bash
+python -m pip install -r requirements.txt
+```
++black, flake8 코드 포멧, 문법
++인터프리터
++readme
+

@@ -12,8 +12,19 @@
 
 ---
 
-## 📦 설치 방법
+## 📦 구조
 
-```bash
-python -m pip install -r requirements.txt
-```
+maingit
+└branch(merge to main)
+    ├commit1
+    └commit2
+
+## Git-Flow
+
+i.  main branch pull
+ii. issue
+iii.branch init
+iv. commit
+iv. git push
+v.  main merge(PR)
+vi. issue and branch close
