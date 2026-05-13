@@ -3,11 +3,11 @@ last_four_words = code[-4:]
 
 if last_four_words == "_eye":
     print("Ophthalmologyc")
-elif "head":
+elif last_four_words == "head":
     print("Neurosurgery")
-elif "infl":
+elif last_four_words == "infl":
     print("Orthopedics")
-elif "skin":
+elif last_four_words == "skin":
     print("Dermatology")
 else:
     print("direct recommendation")
