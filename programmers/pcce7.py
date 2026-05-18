@@ -27,10 +27,10 @@ def func4(station):
 def solution(seat, passengers):
     num_passenger = 0
     for station in passengers:
-        num_passenger += func
+        num_passenger += func4(station)
 
-        num_passenger -= func
+        num_passenger -= func3(station)
 
-    answer = func
+    answer = func1(num_passenger)
 
     return answer
