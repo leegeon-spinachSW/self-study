@@ -105,3 +105,15 @@
 //         cout << endl << endl;
 //     }
 // }
+
+// #include<iostream>
+// using namespace std;
+// void main(){
+//     int num;
+//     do{
+//         cout << "input num(press num 0 to stop process) : ";
+//         cin >> num;
+//         cout << "result : " << num << endl;
+//     }while(num != 0);
+//     cout << num << "your enter key is 0, process stop" << endl;
+// }
