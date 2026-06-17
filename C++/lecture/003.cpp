@@ -80,16 +80,28 @@
 //     cout << "1~"<< i-1 <<" total = " << total  << endl;
 // }
 
-// 3-9 반복문을 이용해서 기본적인 구구단 출력하기 문제 풀이
-#include<iostream>
-using namespace std;
-void main(){
-    int dan;
-    cout << "input dan -> ";
-    cin >> dan;
-    for(int j = 1; j<10; j++)
-    cout << dan << " * " << j << " = " << dan*j << endl;
+// // 3-9 반복문을 이용해서 기본적인 구구단 출력하기 문제 풀이
+// #include<iostream>
+// using namespace std;
+// void main(){
+//     int dan;
+//     cout << "input dan -> ";
+//     cin >> dan;
+//     for(int j = 1; j<10; j++)
+//     cout << dan << " * " << j << " = " << dan*j << endl;
 
-}
-// 포문 초기화 식 변수 j가 곱해지는 수의 역활을 하였다. 
-// 이처럼 포문의 초기화 변수가 어떤 역할을 하느냐에 따라 포문이 어떻게 동작하는지 달라질 수 있다.
+// }
+// // 포문 초기화 식 변수 j가 곱해지는 수의 역활을 하였다. 
+// // 이처럼 포문의 초기화 변수가 어떤 역할을 하느냐에 따라 포문이 어떻게 동작하는지 달라질 수 있다.
+
+// 3-10 다중 for문을 이용해서 특정 구구단 출력하기
+// #include<iostream>
+// using namespace std;
+// void main(){
+//     for(int dan = 2; dan < 10; dan++){
+//         for(int j = 1; j < 10; j++){
+//             cout << dan << " * " << j << " = " << dan * j << endl;
+//         }
+//         cout << endl << endl;
+//     }
+// }
